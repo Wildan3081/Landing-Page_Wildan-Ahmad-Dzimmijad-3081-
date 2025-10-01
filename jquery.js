@@ -1,4 +1,4 @@
-// Smooth scroll dengan jQuery
+
 $(document).ready(function () {
   $(".nav-links a").on("click", function (e) {
     e.preventDefault();
@@ -11,7 +11,7 @@ $(document).ready(function () {
     );
   });
 
-  // Efek hover untuk project-card
+
   $(".project-card").hover(
     function () {
       $(this).css("box-shadow", "0 8px 16px rgba(0,0,0,0.2)");
@@ -21,7 +21,7 @@ $(document).ready(function () {
     }
   );
 
-  // Event form submit
+
   $("#contact-form").on("submit", function (e) {
     e.preventDefault();
     const name = $("#name").val();
@@ -36,3 +36,4 @@ $(document).ready(function () {
     }
   });
 });
+
